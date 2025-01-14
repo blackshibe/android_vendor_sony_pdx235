@@ -1,0 +1,6 @@
+interval 50
+
+trigger 4F000100
+send 2F000101
+
+reset 0

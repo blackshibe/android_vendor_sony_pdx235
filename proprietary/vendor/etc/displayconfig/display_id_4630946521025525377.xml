@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    Copyright 2022 Sony Corporation
+-->
+
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>650.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <screenBrightnessDefault>0.46</screenBrightnessDefault>
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.65</transitionPoint>
+        <minimumLux>10000.0</minimumLux>
+        <timing>
+                <timeWindowSecs>60</timeWindowSecs>
+                <timeMaxSecs>60</timeMaxSecs>
+                <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+    </highBrightnessMode>
+    <screenBrightnessRampFastDecrease>0.8</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.8</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.0167</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.4</screenBrightnessRampSlowIncrease>
+</displayConfiguration>
